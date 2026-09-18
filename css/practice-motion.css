@@ -1,0 +1,19 @@
+/* Component motion is driven by SVG attributes in practice-motion.js.
+ * Load after completion.css. Only the five revised icons opt in. */
+#services .practice-row .practice-symbol--motion {
+    animation: none;
+    transform: none;
+    overflow: visible;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* SVG coordinates are absolute: avoid the legacy fill-box transform origin. */
+#services .practice-symbol--motion > *,
+#services .practice-symbol--motion [data-motion-part] {
+    transform-box: view-box;
+    transform-origin: 0 0;
+    animation: none;
+    transition: none;
+}
+

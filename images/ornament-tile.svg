@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="360" viewBox="0 0 240 360">
+  <defs>
+    <pattern id="tile" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M60 0 72 18 90 18 90 30 102 30 102 48 120 60 102 72 102 90 90 90 90 102 72 102 60 120 48 102 30 102 30 90 18 90 18 72 0 60 18 48 18 30 30 30 30 18 48 18Z" fill="none" stroke="#be8253" stroke-width="1.6"/>
+      <path d="M60 10 110 60 60 110 10 60Z" fill="none" stroke="#be8253" stroke-opacity=".32"/>
+      <path d="m60 51 9 9-9 9-9-9Z" fill="#cfaa7d" fill-opacity=".35"/>
+    </pattern>
+  </defs>
+  <path fill="#efe0c8" d="M0 0h240v360H0z"/>
+  <path fill="url(#tile)" d="M0 0h240v360H0z"/>
+</svg>
